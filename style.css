@@ -13,11 +13,11 @@ body {
   min-height: 100vh;
   overflow: hidden;
   margin: 0;
-  background: rgb(228, 231, 235);
+  background: rgb(12, 42, 99);
   background: linear-gradient(
-    360deg,
-    rgba(228, 231, 235, 1) 0%,
-    rgba(161, 172, 184, 1) 100%
+    180deg,
+    rgba(12, 42, 99, 1) 0%,
+    rgba(214, 227, 250, 1) 100%
   );
 }
 
