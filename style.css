@@ -11,7 +11,7 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  overflow: hidden;
+
   margin: 0;
   background: rgb(12, 42, 99);
   background: linear-gradient(
@@ -20,7 +20,22 @@ body {
     rgba(214, 227, 250, 1) 100%
   );
 }
-
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-thumb {
+  background: #8b92a5;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #b5ccf6;
+}
+::-webkit-scrollbar-track {
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: inset 7px 10px 12px #f0f0f0;
+}
 h1 {
   margin: 3rem 0 2rem;
   text-align: center;
